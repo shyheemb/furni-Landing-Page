@@ -1,0 +1,136 @@
+:root {
+  --dark_text_color: #343e57;
+  --light_text_color: #777f8f;
+  --active-color: #377eff;
+  --range-bg-color: rgba(213, 216, 226, 255);
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.navbar {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-right: 150px;
+  color: #244d4d;
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 37px;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+}
+.links li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #242424;
+  margin-right: 74px;
+  cursor: pointer;
+}
+
+.icons img {
+  margin-right: 44px;
+}
+
+.hero__jumbo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dots{
+  position: absolute;
+  bottom: 427px;
+right: 418px;
+}
+.hero__info{
+width: 45%;
+z-index: 999;
+position: relative;
+background: rgba(255, 255, 255, 0.4);
+backdrop-filter: blur(25px);
+padding-top: 72px;
+padding-bottom: 72px;
+}
+.hero__info h2{
+font-family: 'Noto Serif JP';
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 72px;
+width: 65%;
+letter-spacing: -0.03em;
+color: #244D4D;
+}
+.hero__info p{
+  width: 47%;
+font-family: 'Google Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.01em;
+color: #5F5F64;
+}
+.hero__img {
+  position: relative;
+right: 12%;
+}
+.jumbo__img{
+  width: 116%;
+  height: 700px;
+}
+.hero__img-arrow{
+  justify-content:center;
+  align-items: center;
+  width: 124px;
+height: 124px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.4);
+backdrop-filter: blur(25px);
+bottom: -20px;
+right: -156px;
+display: flex;
+}
+
+.slide__controls{
+  display: flex;
+align-content: center;
+justify-content: left;
+flex-direction: column;
+gap: 100px;
+}
+.slide__navigation{
+  display: flex;
+flex-direction: column;
+gap: 58px;
+}
+
+.slides__indicators{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 13px;
+}
+
+.line{
+  background: black;
+height: 71px;
+width: 1px;
+}
