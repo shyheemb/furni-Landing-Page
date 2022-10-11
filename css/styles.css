@@ -10,16 +10,20 @@
 }
 
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
-
+img{
+  object-fit: contain;
+  object-position: center;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header__section {
-  background: #FFFFFF;
+  background: #ffffff;
   padding-bottom: 35px;
   padding-top: 0px;
   padding-left: 35px;
@@ -67,7 +71,6 @@ body {
 .icons img {
   margin-right: 44px;
   cursor: pointer;
-
 }
 
 .hero__jumbo {
@@ -93,25 +96,25 @@ body {
 }
 
 .hero__info h2 {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 72px;
-  width: 65%;
+  width: 90%;
   letter-spacing: -0.03em;
-  color: #244D4D;
+  color: #244d4d;
 }
 
 .hero__info p {
-  width: 47%;
-  font-family: 'Google Sans';
+  width: 80%;
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.01em;
-  color: #5F5F64;
+  color: #5f5f64;
 }
 
 .hero__img {
@@ -160,12 +163,12 @@ body {
   justify-content: center;
   align-items: center;
   gap: 13px;
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
   line-height: 22px;
-  color: #242424
+  color: #242424;
 }
 
 .line {
@@ -180,12 +183,12 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 30px;
-  background: #F4F6F6;
+  background: #f4f6f6;
   padding: 50px 35px 40px 35px;
 }
 
 .companies__header {
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -203,9 +206,8 @@ body {
 }
 
 .hot-deal__section {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 138px 118px 120px 118px;
-
 }
 
 .hot-deals {
@@ -217,22 +219,22 @@ body {
 
 .hot-deals__header p {
   width: 214px;
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.01em;
-  color: #5F5F64;
+  color: #5f5f64;
 }
 
 .hot-deals__title {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 25px;
-  color: #244D4D;
+  color: #244d4d;
   align-items: center;
   margin: 0px 0 30px;
 }
@@ -254,13 +256,13 @@ body {
 
 .deals-info__text {
   width: 214px;
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.01em;
-  color: #5F5F64;
+  color: #5f5f64;
 }
 
 .hot-deal {
@@ -269,7 +271,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.01em;
-  color: #3D3D3F;
+  color: #3d3d3f;
 }
 
 .deals-info__text {
@@ -277,7 +279,7 @@ body {
 }
 
 .about-us__section {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 138px 118px 120px 118px;
 }
 
@@ -296,23 +298,23 @@ body {
 }
 
 .about-us__header {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 76px;
-  color: #244D4D;
+  color: #244d4d;
 }
 
 .about-us__top-left p {
   width: 343px;
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.01em;
-  color: #5F5F64;
+  color: #5f5f64;
 }
 
 .about-us__button {
@@ -320,16 +322,21 @@ body {
   padding-right: 40px;
   padding-left: 40px;
   border-radius: 5px;
-  background: #F4F6F6;
-  font-family: 'Manrope';
+  background: #f4f6f6;
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #5F5F64;
+  color: #5f5f64;
   cursor: pointer;
-  box-shadow: 0px 100px 80px rgba(36, 77, 77, 0.1), 0px 64.8148px 46.8519px rgba(36, 77, 77, 0.0759259), 0px 38.5185px 25.4815px rgba(36, 77, 77, 0.0607407), 0px 20px 13px rgba(36, 77, 77, 0.05), 0px 8.14815px 6.51852px rgba(36, 77, 77, 0.0392593), 0px 1.85185px 3.14815px rgba(36, 77, 77, 0.0240741);
+  box-shadow: 0px 100px 80px rgba(36, 77, 77, 0.1),
+    0px 64.8148px 46.8519px rgba(36, 77, 77, 0.0759259),
+    0px 38.5185px 25.4815px rgba(36, 77, 77, 0.0607407),
+    0px 20px 13px rgba(36, 77, 77, 0.05),
+    0px 8.14815px 6.51852px rgba(36, 77, 77, 0.0392593),
+    0px 1.85185px 3.14815px rgba(36, 77, 77, 0.0240741);
 }
 
 .about-us__bottom {
@@ -351,32 +358,31 @@ body {
 }
 
 .about-us__number {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 76px;
-  color: #244D4D;
+  color: #244d4d;
 }
 
 .about-us__info-title {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 76px;
-  color: #244D4D;
+  color: #244d4d;
 }
 
 .about-us-text {
-
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.01em;
-  color: #5F5F64;
+  color: #5f5f64;
 }
 
 .about-us__info-top {
@@ -415,13 +421,11 @@ body {
   flex-direction: column;
   gap: 31px;
   position: relative;
-
 }
 
 .products__section {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 75px 185px 120px 185px;
-
 }
 
 .products__top {
@@ -437,13 +441,13 @@ body {
 }
 
 .product__header {
-  font-family: 'Noto Serif JP';
+  font-family: "Noto Serif JP";
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
   line-height: 72px;
   letter-spacing: 0.01em;
-  color: #244D4D;
+  color: #244d4d;
   margin-bottom: 50px;
 }
 
@@ -452,21 +456,24 @@ body {
   align-content: center;
   justify-content: center;
   gap: 71px;
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  color: #A9A7A6;
+  color: #a9a7a6;
   margin-bottom: 141px;
 }
 
 .products__list li {
   cursor: pointer;
 }
+.products__list li:hover {
+  color: black;
+}
 
 .products__list .active {
-  color: #3D3D3F;
+  color: #3d3d3f;
 }
 
 .product__row {
@@ -483,7 +490,7 @@ body {
 }
 
 .products__box {
-  background: #F7F7F7;
+  background: #f7f7f7;
   width: 312px;
   height: 305px;
   align-items: center;
@@ -496,7 +503,7 @@ body {
 .product__cart {
   position: relative;
   z-index: 2000;
-  background: #D6C4B8;
+  background: #d6c4b8;
   border-radius: 50%;
   width: 32px;
   bottom: 24px;
@@ -505,12 +512,12 @@ body {
 }
 
 .products__title {
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
   line-height: 33px;
-  color: #3D3D3F;
+  color: #3d3d3f;
   margin-bottom: 29px;
 }
 
@@ -522,22 +529,22 @@ body {
 }
 
 .current__price {
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 24px;
-  color: #3D3D3F;
+  color: #3d3d3f;
 }
 
 .old__price {
-  font-family: 'Google Sans';
+  font-family: "Google Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
   text-decoration-line: line-through;
-  color: #A9A7A6;
+  color: #a9a7a6;
 }
 
 .product__img {
@@ -548,4 +555,186 @@ body {
   width: 240px;
   object-fit: contain;
   object-position: center;
+}
+.review__section {
+  background: #ffffff;
+  padding: 138px 118px 120px 118px;
+}
+.review__section-container {
+  background: #f4f6f6;
+  border-radius: 12px;
+  padding: 115px 0;
+  gap: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.review__top {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 110%;
+}
+.semicircle {
+  position: relative;
+  bottom: 114px;
+}
+.semicircle img {
+  position: absolute;
+}
+.review__top img {
+  object-fit: contain;
+  object-position: center;
+}
+.review__hero{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.review__header{
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 68px;
+  text-align: center;
+  color: #244D4D;
+  width: 60%;
+}
+.review__hero-text{
+  font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #3A4F65;
+    width: 53%;
+}
+.review__icon {
+  position: relative;
+  left: -245px;
+  top: 71px;
+  background: #FFFFFF;
+  box-shadow: 0px 40px 50px -14px rgb(171 211 227 / 50%);
+  border-radius: 50%;
+  height: 78px;
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review__icon img{
+  display: flex;
+  align-items: center;
+  top: 7px;
+  position: relative;
+}
+.review__bottom {
+  display: flex;
+justify-content: space-between;
+align-content: center;
+margin: auto;
+width: 76%;
+}
+.review__bottom-ellipse {
+  position: relative;
+  height: fit-content;
+  left: -67px;
+  bottom: -355px;
+}
+.review__bottom-left{
+  margin-right: 114px;
+}
+.review__icon-star{
+position: relative;
+left: -34px;
+top: -306px;
+background: #FFFFFF;
+box-shadow: 0px 40px 50px -14px rgb(171 211 227 / 50%);
+border-radius: 50%;
+height: 56px;
+width: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.review__icon-star{
+  display: flex;
+  align-items: center;
+  top: -345px;
+  position: relative;
+}
+.review__icon-star img{
+  display: flex;
+align-items: center;
+top: 7px;
+position: relative;
+}
+.review__logo{ 
+font-family: 'Noto Serif JP';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 37px;
+letter-spacing: -0.03em;
+color: #244D4D;
+margin-bottom: 38px;
+}
+.client__review{
+  margin-bottom: 45px;
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #5E7388;
+  width: 89%;
+}
+.client__info{
+  margin-bottom: 54px;
+}
+.client__name{
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #152137;
+  margin-bottom:6px;
+  
+}
+.client__title{
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #647383;
+  
+  
+}
+.review__navigation{
+  display: flex;
+  gap: 20px;
+}
+.review__icon-nav{
+  background: #FFFFFF;
+box-shadow: 0px 40px 50px -14px rgb(171 211 227 / 50%);
+border-radius: 50%;
+height: 56px;
+width: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.review__icon-nav img{
+display: flex;
+align-items: center;
+justify-content: center;
 }
